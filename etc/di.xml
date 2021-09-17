@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!--
+    <preference for="Magento\Framework\Webapi\ServiceOutputProcessor" type="Albert\Magento\WeChatPay\Model\ServiceOutputProcessor"/>
+    -->
+    <type name="Magento\Framework\Webapi\ServiceOutputProcessor">
+        <plugin name="rest_api_output_format" type="Albert\Magento\Webapi\Plugin\ServiceOutputProcessorChange"/>
+    </type>
+</config>
