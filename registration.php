@@ -1,6 +1,9 @@
-<?php /**
-* Copyright © 2016 Magento. All rights reserved. * See COPYING.txt for license details.
-*/
-\Magento\Framework\Component\ComponentRegistrar::register( \Magento\Framework\Component\ComponentRegistrar::MODULE, 'Albert_Webapi',
-__DIR__
-);
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+use Magento\Framework\Component\ComponentRegistrar;
+
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'AlbertMage_Webapi', __DIR__);

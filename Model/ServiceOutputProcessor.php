@@ -4,7 +4,7 @@
  *
  * Module Created By : Albert Shen
  */
-namespace Albert\Magento\Webapi\Model;
+namespace AlbertMage\Webapi\Model;
 
 use Magento\Framework\Api\AbstractExtensibleObject;
 use Magento\Framework\Api\ExtensibleDataObjectConverter;
