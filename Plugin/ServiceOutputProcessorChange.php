@@ -4,6 +4,7 @@ namespace AlbertMage\Webapi\Plugin;
 
 /**
  * Update ServiceOutputProcessor
+ * @author Albert Shen <albertshen1206@gmail.com>
  */
 class ServiceOutputProcessorChange
 {

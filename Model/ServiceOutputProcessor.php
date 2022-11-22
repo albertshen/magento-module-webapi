@@ -18,7 +18,7 @@ use Laminas\Code\Reflection\ClassReflection;
  * Data object converter
  *
  * @api
- * @since 100.0.2
+ * @author Albert Shen <albertshen1206@gmail.com>
  */
 class ServiceOutputProcessor extends \Magento\Framework\Webapi\ServiceOutputProcessor
 {
