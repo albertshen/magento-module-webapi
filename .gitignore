@@ -1,4 +1,11 @@
-vendor/
-composer.lock
-*.DS_Store
-.idea/
+.phpintel/
+.DS_Store
+.git
+*.tmp
+*.lock
+*.log
+*.sass-cache
+*.sql
+*.dump
+*.csv
+*.xlsx
