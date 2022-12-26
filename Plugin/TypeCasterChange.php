@@ -1,6 +1,6 @@
 <?php
 
-namespace Albert\Magento\Webapi\Plugin;
+namespace AlbertMage\Webapi\Plugin;
 
 /**
  * Update TypeCaster
