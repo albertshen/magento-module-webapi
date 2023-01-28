@@ -6,4 +6,14 @@
     <type name="Magento\Framework\Reflection\TypeCaster">
         <plugin name="rest_api_output_format" type="AlbertMage\Webapi\Plugin\TypeCasterChange"/>
     </type>
+    <type name="Magento\Webapi\Controller\Rest\SynchronousRequestProcessor">
+        <plugin name="rest_synchronous_request_processor" type="AlbertMage\Webapi\Plugin\SynchronousRequestProcessorChange"/>
+    </type>
+    <type name="AlbertMage\Webapi\Plugin\SynchronousRequestProcessorChange">
+        <arguments>
+            <argument name="cacheUriList" xsi:type="array">
+                <item name="test" xsi:type="string">V1/app/products/:productId</item>
+            </argument>
+        </arguments>
+    </type>
 </config>

@@ -10,14 +10,14 @@ class ServiceOutputProcessorChange
 {
 
     /**
-     * @param \Magento\Framework\Webapi\ServiceOutputProcessor $ServiceOutputProcessor
+     * @param \Magento\Framework\Webapi\ServiceOutputProcessor $serviceOutputProcessor
      * @param null $result
      * @param array $data
      * @param string $type
      * @return array|object
      */
     public function afterConvertValue(
-        \Magento\Framework\Webapi\ServiceOutputProcessor $ServiceOutputProcessor,
+        \Magento\Framework\Webapi\ServiceOutputProcessor $serviceOutputProcessor,
         $result,
         $data,
         $type
