@@ -12,7 +12,7 @@
     <type name="AlbertMage\Webapi\Plugin\SynchronousRequestProcessorChange">
         <arguments>
             <argument name="cacheUriList" xsi:type="array">
-                <item name="test" xsi:type="string">V1/app/products/:productId</item>
+                <item name="test" xsi:type="string">V1/app/products/xxxx/:productId</item>
             </argument>
         </arguments>
     </type>
